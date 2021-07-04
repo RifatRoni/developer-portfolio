@@ -1,4 +1,4 @@
-.title-color{
+.blue-color{
     color: #643DF4;
 }
 body{
@@ -8,16 +8,17 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 10%;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
 .half-width img {
-    width: 100%;
-    margin-top: 1%;
+    width: 90%;
+    margin-top: 8%;
 }
 .hire-button{
     text-decoration: none;
@@ -35,4 +36,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right ;
+}
+.experience-heading{
+    margin-left:60px;
+}
+.experience-div{
+    box-shadow: 15px 10px 30px#9e83ff;
+    width: 40%;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius:10px;
+    padding: 20px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp-baby-dev{
+    border-left:7px solid;
+    border-image: linear-gradient(#643DF4, #5ad0ff);
+    border-image-slice: 1;
+}
+#exp-full-stack{
+    border-left:7px solid;
+    border-image: linear-gradient(#FA7860, #FFC71D);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
